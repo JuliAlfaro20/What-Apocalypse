@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Apocalypse</title>
+  <link rel="icon" type="image/x-icon" href="assets/icono_redondo_128x128.ico">
+    <style>
+    .botoncito {
+      background-color: #ffcc00;
+      color: #000;
+      font-size: 24px;font-weight: bold;
+      padding: 15px 40px;
+      border: 3px solid #000; border-radius: 12px;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 25px; cursor: pointer;
+    }
+  #juego{
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 2px solid none;
+  }
+ 
+    td{
+      font-size: 20px;
+      letter-spacing: 1.3px;  
+      padding: 10px;
+      color: white;
+    }
+    body{margin: 0;
+    background-color: #000;
+    }
+
+    .notiflix-report-content {
+    text-align: center;
+}
+
+
+   #NXReportButton {
+       float: none !important;
+       display: table !important;
+       margin: 20px auto 0 !important;
+   }
+
+    </style>
+
+</head>
+<body>
+
+<table>
+<!-- En esta tabla mandamos la información de las variables "puntos" y "Monedas" y los el mejor record-->
+
+<tr>
+  <td>Puntos</td>
+  <td>Monedas</td>
+  <td>Tu mejor record</td>
+</tr>
+
+<tr>
+  <td id="puntos"></td>
+  <td id="monedas"></td>
+  <td id="puntajeMaximo"></td>
+</tr>
+
+</table>
+
+
+<div id="cajajuego">
+<!-- En este div es donde se proyecta la información del juego-->
+<div id="juego"></div>
+
+
+</div>
+<script src="phaser.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.8/dist/notiflix-aio-3.2.8.min.js"></script>
+<script src="script.js"></script>
+<br>
+<center>
+  <a href="index.html" class="botoncito">Volver al inicio</a>
+</center>
+</body>
+</html>
