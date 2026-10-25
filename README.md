@@ -1,2 +1,2 @@
 # What-Apocalypse
-This is a little videogames, made it for me and maybe my classmates 
+This is a little videogame, made it by me and maybe my classmates 
